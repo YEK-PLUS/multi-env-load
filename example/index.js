@@ -1,4 +1,4 @@
-require('multi-env-loader')({
+require('multi-env-load')({
   paths: ['.env', '.env.private'],
 });
 

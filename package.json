@@ -1,7 +1,7 @@
 {
-  "name": "multi-env-loader",
+  "name": "multi-env-load",
   "version": "1.0.0",
-  "description": "multi env loader",
+  "description": "multi env load",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YEK-PLUS/multi-env-loader.git"
+    "url": "git+https://github.com/YEK-PLUS/multi-env-load.git"
   },
   "keywords": [
     "env",
@@ -19,9 +19,9 @@
   "author": "YEK-PLUS",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/YEK-PLUS/multi-env-loader/issues"
+    "url": "https://github.com/YEK-PLUS/multi-env-load/issues"
   },
-  "homepage": "https://github.com/YEK-PLUS/multi-env-loader#readme",
+  "homepage": "https://github.com/YEK-PLUS/multi-env-load#readme",
   "dependencies": {
     "dotenv": "^10.0.0"
   },

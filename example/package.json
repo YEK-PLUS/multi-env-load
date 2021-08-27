@@ -11,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "multi-env-loader": "file:.."
+    "multi-env-load": "file:.."
   }
 }
