@@ -12,6 +12,7 @@ yarn add multi-env-load
 ```js
 require("multi-env-load")({
   paths: [".env", ".env.private", ".env.my"],
+  overwrite: false,
 });
 ```
 
@@ -20,6 +21,7 @@ require("multi-env-load")({
 ```js
 {
   paths:[<ENV_FILES>]
+  overwrite: BOOLEAN
 }
 
 ```

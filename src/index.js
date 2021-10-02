@@ -8,7 +8,7 @@ const main = (config) => {
     const buffer = fs.readFileSync(path);
     const env = dotenv.parse(buffer);
     Object.entries(env).map(([key, value]) => {
-      process.env[key] = value;
+      process.env[key] = config.overwrite ? value || process.env[key] : process.env[key] || value;
       return true;
     });
     return true;
