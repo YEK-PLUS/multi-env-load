@@ -1,7 +1,7 @@
 const fs = require('fs');
 const dotenv = require('dotenv');
 
-const main = (config) => {
+const MultiEnvLoad = (config) => {
   if (!config || typeof config !== 'object') throw new Error('Please set a valid config variable');
   if (!config.paths) throw new Error('Please set a paths variable');
   config.paths.map((path) => {
@@ -15,4 +15,4 @@ const main = (config) => {
   });
 };
 
-module.exports = main;
+module.exports = MultiEnvLoad;
